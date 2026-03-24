@@ -7,7 +7,7 @@ int main(){
     printf("enter the number of units consumed:");
     scanf("%f", &units);
     printf("enter the cost per unit:");
-    scanf("%f", &cost_per_unit);
+    scanf("%f",  &cost_per_unit);
 
     if (units <= 100){
         bill_amount = 0.5 * units * cost_per_unit;
