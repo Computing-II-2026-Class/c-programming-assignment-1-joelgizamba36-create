@@ -11,4 +11,5 @@ int main(){
     fuel_efficiency = distance / fuel_used;
     printf("The amount of fuel efficiency is: %f km/l\n", fuel_efficiency);
     return 0;
+    
 }
