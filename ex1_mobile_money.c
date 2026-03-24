@@ -29,6 +29,8 @@ int main(){
             fee = 0.01 * amount;
             printf("the fee is: %f\n", fee);
         }
+    return 0;
+}
         
 
 
