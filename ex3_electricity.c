@@ -26,7 +26,7 @@ int main(){
 
     }
 
-    else if (units > 300){
+    else {
         bill_amount = 1.50 * units *cost_per_unit;
         printf("the bill amount is: %f\n", bill_amount);
     }
