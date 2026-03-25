@@ -11,26 +11,22 @@ int main(){
 
     if (units <= 100){
         bill_amount = 0.5 * units * cost_per_unit;
-        printf("the bill amount is: %f\n", bill_amount);
-
     }
 
     else if (units > 100 && units <= 200){
-        bill_amount = 0.75 * units * cost_per_unit;
-        printf("the bill amount is: %f\n", bill_amount);
+        bill_amount = 0.75 * units * cost_per_unit; 
     }
 
     else if (units > 200 && units <= 300){
         bill_amount = 1.20 * units * cost_per_unit;
-        printf("the bill amount is: %f\n", bill_amount);
-
     }
 
     else {
-        bill_amount = 1.50 * units *cost_per_unit;
-        printf("the bill amount is: %f\n", bill_amount);
+        bill_amount = 1.50 * units *cost_per_unit; 
     }
+    
+     printf("the bill amount is: %.2f\n", bill_amount);
+    
     return 0;
-        
     }
 
