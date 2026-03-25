@@ -15,20 +15,18 @@ int main(){
     }
         else if (amount<= 2500){
             fee = 0.04 * amount;
-            printf("the fee is: %f\n", fee);
         }
         else if (amount <= 10000){
             fee = 0.03 * amount;
-            printf("the fee is: %f\n", fee);
         }
         else if (amount <= 30000){ 
             fee = 0.02 * amount;
-            printf("the fee is: %f\n", fee);
         }
         else {
             fee = 0.01 * amount;
-            printf("the fee is: %f\n", fee);
         }
+    printf("the fee is: %f\n", fee);
+    
     return 0;
 }
         
