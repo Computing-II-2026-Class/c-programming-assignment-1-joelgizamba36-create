@@ -25,7 +25,7 @@ int main(){
             fee = 0.02 * amount;
             printf("the fee is: %f\n", fee);
         }
-        else if (amount > 60000){
+        else {
             fee = 0.01 * amount;
             printf("the fee is: %f\n", fee);
         }
